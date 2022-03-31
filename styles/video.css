@@ -1,7 +1,7 @@
 
 .thumbnail{
     width: 100%;
-    
+    cursor: pointer;
 }
 
 .video-title{
@@ -9,7 +9,8 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .video-info{
@@ -27,7 +28,7 @@
    
 }
 .thumbnail-row{
-   margin-bottom: 12px;
+   margin-bottom: 8px;
    position: relative;
 }
 .channel-name,
@@ -37,6 +38,7 @@
 }
 .channel-name{
     margin-bottom: 4px;
+    cursor: pointer;
 }
 .video-info-grid{
   display: grid;
@@ -47,6 +49,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  background-color: rgb(240, 240, 240);
 }
 .video-time{
     font-family: Roboto,Arial;
